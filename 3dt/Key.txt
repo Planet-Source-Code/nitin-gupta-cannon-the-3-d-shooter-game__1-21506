@@ -1,0 +1,40 @@
+    Case vbBlack
+      Level.Tile(X, Y) = NOWT
+      Setntile NOWT, X, Y
+      ok = 1
+    Case vbCyan    'Wall
+      Level.Tile(X, Y) = 1
+      Setntile 1, X, Y
+      ok = 1
+    Case vbYellow  'Ammo
+      Level.Tile(X, Y) = 3
+      Setntile 3, X, Y
+      ok = 1
+    Case vbMagenta 'Health
+      Level.Tile(X, Y) = 4
+      Setntile 4, X, Y
+      ok = 1
+    Case vbBlue
+      Level.Tile(X, Y) = 2
+      Setntile 2, X, Y
+      ok = 1
+    Case 128        'End
+      Level.Tile(X, Y) = 5
+      Setntile 5, X, Y
+      ok = 1
+    Case vbWhite
+      Level.Tile(X, Y) = 16   'Enemy
+      Setntile 16, X, Y
+      ok = 1
+    Case vbGreen
+      Level.Tile(X, Y) = NOWT
+      Setntile NOWT, X, Y
+      Man.X = X
+      Man.Y = Y
+      ok = 1
+    Case vbRed                'Enemy
+      Level.Tile(X, Y) = 15
+      'DoorPos.X = X
+      'DoorPos.Y = Y
+      Setntile 15, X, Y
+      ok = 1
