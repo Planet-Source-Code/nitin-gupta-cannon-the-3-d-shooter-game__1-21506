@@ -1,0 +1,6 @@
+Welcome to Cannon, a 3-D first person shooter game by Nitin Gupta of Sofrainit Softwares.
+
+First copy justov.ttf to c:\windows\fonts. To install, unzip the Easysound control and install it. Then open the project or play Cannon.exe. Enjoy.
+
+Best Reagrds,
+Nitin Gupta.
